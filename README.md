@@ -1,36 +1,55 @@
 # Arnold Cartagena
 
-Building **[edictum-ai](https://github.com/edictum-ai)** — a family of open-source tools for AI agents in production — plus a few tools of my own.
+Senior platform engineer and technical lead working on infrastructure automation, developer tooling, and AI-assisted engineering systems.
 
-Platform engineer · Published researcher on AI agent safety (arXiv) · Based in Bern, Switzerland 🇨🇭
+I stay close to the code. Most of my work is around Kubernetes, Kafka, cloud infrastructure, internal developer platforms, CI/CD, observability, and tools that help engineers ship and operate systems with less manual work.
+
+Lately I have been focused on AI-agent workflows: runtime controls, approval gates, MCP tools, review loops, provenance, and safer automation around real engineering work.
+
+Based in Bern, Switzerland. Relocating to Prague, Czechia.
 
 ---
 
-### edictum-ai — agent tooling family
+## What I Build
 
-| Tool | Role |
+- **Platform automation:** Kubernetes/cloud platforms, GitOps, Terraform, CI/CD, golden paths, and self-service workflows.
+- **Data and integration platforms:** Kafka, Kafka Connect, API platforms, event-driven workflows, and cloud migration patterns.
+- **AI-assisted engineering systems:** agent workflows, MCP tools, runtime enforcement, review loops, and human-gated automation.
+- **Research and evaluation:** practical work on tool-call safety, AI coding workflows, and failure modes in AI-assisted software delivery.
+
+## Selected OSS And Tooling
+
+| Project | What it shows |
 | --- | --- |
-| [Edictum](https://github.com/edictum-ai/edictum) | Runtime enforcement for agent tool calls — deterministic rules and workflow gates at the tool boundary |
-| [Captatum](https://github.com/edictum-ai/captatum) | Adaptive MCP web-fetch — fetch any URL, render JS when needed, return content plus a provenance receipt |
-| [Qratum](https://github.com/edictum-ai/qratum) | Local-first session vault — capture, redact, and prove the provenance of agent runs |
+| [Edictum](https://github.com/edictum-ai/edictum) | Runtime enforcement for AI agents: allow, block, ask for approval, and record decisions before tool calls execute. |
+| [Ductum](https://github.com/edictum-ai/ductum) | AI-factory orchestration for spec-to-task execution, repair loops, approvals, and operator-reviewed merges. |
+| [Captatum](https://github.com/edictum-ai/captatum) | MCP web-fetch tool for AI agents with rendering, extraction, and provenance receipts. |
+| [spec-reviewer](https://github.com/acartag7/spec-reviewer) | Local-first Markdown spec reviewer with source-anchored feedback for agent and human review loops. |
+| [pasteforward](https://github.com/acartag7/pasteforward) | Small CLI utility that makes image paste work in Claude Code and Codex over SSH. |
+| [handoff-guard](https://github.com/acartag7/handoff-guard) / [handoff-guard-ts](https://github.com/acartag7/handoff-guard-ts) | Structured-output validation for LLM workflows with retry feedback. |
+| [Qratum](https://github.com/edictum-ai/qratum) | Early-stage local-first work on capturing, redacting, and reviewing AI coding sessions. |
 
-Edictum SDKs: [Python](https://github.com/edictum-ai/edictum) (PyPI `edictum`) · [TypeScript](https://github.com/edictum-ai/edictum-ts) · [Go](https://github.com/edictum-ai/edictum-go) · [OpenClaw](https://github.com/edictum-ai/edictum-openclaw). Hosted platform at [edictum.ai](https://edictum.ai).
+Edictum SDKs: [Python](https://github.com/edictum-ai/edictum) · [TypeScript](https://github.com/edictum-ai/edictum-ts) · [Go](https://github.com/edictum-ai/edictum-go) · [OpenClaw](https://github.com/edictum-ai/edictum-openclaw)
 
-### Other tools
-
-- [**spec-reviewer**](https://github.com/acartag7/spec-reviewer) — Local-first Markdown spec reviewer for source-anchored agent feedback.
-- [**pasteforward**](https://github.com/acartag7/pasteforward) — Make image paste work in Claude Code and Codex over SSH.
-- [**handoff-guard**](https://github.com/acartag7/handoff-guard) / [**handoff-guard-ts**](https://github.com/acartag7/handoff-guard-ts) — Validation for LLM agents that retries with feedback.
-
-### Research
+## Research
 
 - [**Mind the GAP**](https://arxiv.org/abs/2602.16943) — *Text Safety Does Not Transfer to Tool-Call Safety in LLM Agents*. arXiv, Feb 2026.
 - [**gap-benchmark**](https://github.com/acartag7/gap-benchmark) — Measuring text-safety vs tool-call-safety divergence across regulated domains.
-- [**ai-monoculture**](https://github.com/acartag7/ai-monoculture) — Architectural convergence across 6 frontier models, 144 completions.
+- [**ai-monoculture**](https://github.com/acartag7/ai-monoculture) — Measuring architectural convergence across 6 frontier models and 144 completions.
 
-### Links
+## Best Fit
 
-- 🌐 [edictum.ai](https://edictum.ai) — Edictum
-- 👤 [cv.arnoldcartagena.com](https://cv.arnoldcartagena.com) — CV
-- 📖 [docs.edictum.ai](https://docs.edictum.ai) — Documentation
-- 💼 [LinkedIn](https://linkedin.com/in/arnold-cartagena)
+Roles where I can combine platform engineering, backend systems, developer tooling, and AI-assisted automation:
+
+- Staff / Principal Platform Engineer
+- Infrastructure Automation Engineer
+- Developer Tools / Internal Developer Platform Engineer
+- AI Platform / Agent Tooling Engineer
+- Hands-on Technical Lead for platform or automation teams
+
+## Links
+
+- [edictum.ai](https://edictum.ai)
+- [docs.edictum.ai](https://docs.edictum.ai)
+- [cv.arnoldcartagena.com](https://cv.arnoldcartagena.com)
+- [LinkedIn](https://linkedin.com/in/arnold-cartagena)
