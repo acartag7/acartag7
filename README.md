@@ -24,6 +24,7 @@ Based in Bern, Switzerland. Relocating to Prague, Czechia.
 | [Edictum](https://github.com/edictum-ai/edictum) | Runtime enforcement for AI agents: allow, block, ask for approval, and record decisions before tool calls execute. |
 | [Ductum](https://github.com/edictum-ai/ductum) | AI-factory orchestration for spec-to-task execution, repair loops, approvals, and operator-reviewed merges. |
 | [Captatum](https://github.com/edictum-ai/captatum) | MCP web-fetch tool for AI agents with rendering, extraction, and provenance receipts. |
+| [mcp-sso](https://github.com/acartag7/mcp-sso) | OAuth 2.1 for remote MCP servers: spec-correct resource-server verification plus an AS bridge giving clients DCR/PKCE while your existing IdP stays the identity source. |
 | [spec-reviewer](https://github.com/acartag7/spec-reviewer) | Local-first Markdown spec reviewer with source-anchored feedback for agent and human review loops. |
 | [pasteforward](https://github.com/acartag7/pasteforward) | Small CLI utility that makes image paste work in Claude Code and Codex over SSH. |
 | [handoff-guard](https://github.com/acartag7/handoff-guard) / [handoff-guard-ts](https://github.com/acartag7/handoff-guard-ts) | Structured-output validation for LLM workflows with retry feedback. |
