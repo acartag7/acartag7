@@ -2,7 +2,7 @@
 
 Senior platform engineer and technical lead working on infrastructure automation, developer tooling, and AI-assisted engineering systems.
 
-I stay close to the code. Most of my work is around Kubernetes, Kafka, cloud infrastructure, internal developer platforms, CI/CD, observability, and tools that help engineers ship and operate systems with less manual work.
+I stay close to the code. Most of my work is around Kubernetes, Kafka, cloud infrastructure, internal developer platforms, CI/CD, observability, and the tooling that helps engineers ship and operate systems with less manual work.
 
 Lately I have been focused on AI-agent workflows: runtime controls, approval gates, MCP tools, review loops, provenance, and safer automation around real engineering work.
 
@@ -17,20 +17,23 @@ Based in Bern, Switzerland. Relocating to Prague, Czechia.
 - **AI-assisted engineering systems:** agent workflows, MCP tools, runtime enforcement, review loops, and human-gated automation.
 - **Research and evaluation:** practical work on tool-call safety, AI coding workflows, and failure modes in AI-assisted software delivery.
 
-## Selected OSS And Tooling
+## Agent And MCP Tooling
 
-| Project | What it shows |
+| Project | What it does |
 | --- | --- |
-| [Edictum](https://github.com/edictum-ai/edictum) | Runtime enforcement for AI agents: allow, block, ask for approval, and record decisions before tool calls execute. |
-| [Ductum](https://github.com/edictum-ai/ductum) | AI-factory orchestration for spec-to-task execution, repair loops, approvals, and operator-reviewed merges. |
-| [Captatum](https://github.com/edictum-ai/captatum) | MCP web-fetch tool for AI agents with rendering, extraction, and provenance receipts. |
+| [captatum](https://github.com/acartag7/captatum) | MCP web-fetch for agents: fetch any URL, render JS when needed, SSRF-guarded, with a provenance receipt on every response. Fetched content is treated as untrusted data, never instructions. |
 | [mcp-sso](https://github.com/acartag7/mcp-sso) | OAuth 2.1 for remote MCP servers: spec-correct resource-server verification plus an AS bridge giving clients DCR/PKCE while your existing IdP stays the identity source. |
+| [qratum](https://github.com/acartag7/qratum) | Local librarian for AI coding sessions — capture, search, redact, and review Claude and Codex work. ([qratum.dev](https://qratum.dev)) |
 | [spec-reviewer](https://github.com/acartag7/spec-reviewer) | Local-first Markdown spec reviewer with source-anchored feedback for agent and human review loops. |
-| [pasteforward](https://github.com/acartag7/pasteforward) | Small CLI utility that makes image paste work in Claude Code and Codex over SSH. |
 | [handoff-guard](https://github.com/acartag7/handoff-guard) / [handoff-guard-ts](https://github.com/acartag7/handoff-guard-ts) | Structured-output validation for LLM workflows with retry feedback. |
-| [Qratum](https://github.com/edictum-ai/qratum) | Early-stage local-first work on capturing, redacting, and reviewing AI coding sessions. |
+| [pasteforward](https://github.com/acartag7/pasteforward) | Small CLI utility that makes image paste work in Claude Code and Codex over SSH. |
+| [engineering-os](https://github.com/acartag7/engineering-os) | The process and quality rules behind how I ship: specs, review gates, and verification loops. |
 
-Edictum SDKs: [Python](https://github.com/edictum-ai/edictum) · [TypeScript](https://github.com/edictum-ai/edictum-ts) · [Go](https://github.com/edictum-ai/edictum-go) · [OpenClaw](https://github.com/edictum-ai/edictum-openclaw)
+## Security Product Line
+
+| Project | What it does |
+| --- | --- |
+| [Edictum](https://github.com/edictum-ai/edictum) | Runtime governance for AI agents: allow, block, or require approval on tool calls, and record every decision before it executes. SDKs for [Python](https://github.com/edictum-ai/edictum), [TypeScript](https://github.com/edictum-ai/edictum-ts), [Go](https://github.com/edictum-ai/edictum-go), and [OpenClaw](https://github.com/edictum-ai/edictum-openclaw). |
 
 ## Research
 
@@ -50,7 +53,6 @@ Roles where I can combine platform engineering, backend systems, developer tooli
 
 ## Links
 
-- [edictum.ai](https://edictum.ai)
-- [docs.edictum.ai](https://docs.edictum.ai)
 - [cv.arnoldcartagena.com](https://cv.arnoldcartagena.com)
 - [LinkedIn](https://linkedin.com/in/arnold-cartagena)
+- [edictum.ai](https://edictum.ai) · [docs.edictum.ai](https://docs.edictum.ai)
